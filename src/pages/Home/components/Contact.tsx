@@ -3,6 +3,7 @@ import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import Tooltip from "@mui/material/Tooltip";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import CorporateFareIcon from "@mui/icons-material/CorporateFare";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 
@@ -13,6 +14,11 @@ const CONTACTS = [
     label: "GitHub",
     href: "https://github.com/gabrielppd77",
     icon: <GitHubIcon fontSize="large" />,
+  },
+  {
+    label: "necro-org",
+    href: "https://github.com/necro-org",
+    icon: <CorporateFareIcon fontSize="large" />,
   },
   {
     label: "LinkedIn",
@@ -26,7 +32,7 @@ const CONTACTS = [
   },
 ];
 
-const CONTACT_COLORS = ["#ff2bd6", "#00f0ff", "#faff00"];
+const CONTACT_COLORS = ["#ff2bd6", "#7c3aed", "#00f0ff", "#faff00"];
 
 export default function Contact() {
   return (

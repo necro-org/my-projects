@@ -10,7 +10,7 @@ const projects: ProjectDto[] = [
       { label: "Acessar sistema", url: "https://controle-financeiro.necro.com.br/" },
       { label: "API", url: "https://controle-financeiro-api.necro.com.br/" },
     ],
-    repoUrl: "https://github.com/gabrielppd77/ControleFinanceiro",
+    repoUrl: "https://github.com/necro-org/ControleFinanceiro",
     startDate: "2026-02-11",
   },
   {
@@ -19,7 +19,7 @@ const projects: ProjectDto[] = [
       "Sistema para gerenciamento das manutenções de veículos, com cliente mobile consumindo a API.",
     tag: "API + Mobile",
     links: [{ label: "API", url: "https://micar-api.necro.com.br/" }],
-    repoUrl: "https://github.com/gabrielppd77/Micar",
+    repoUrl: "https://github.com/necro-org/Micar",
     startDate: "2026-07-24",
     isMobileApp: true,
   },
@@ -33,7 +33,7 @@ const projects: ProjectDto[] = [
       { label: "Painel admin", url: "https://admin.riceandbeans.necro.com.br/" },
       { label: "API", url: "https://api.riceandbeans.necro.com.br/" },
     ],
-    repoUrl: "https://github.com/gabrielppd77/RiceAndBeans",
+    repoUrl: "https://github.com/necro-org/RiceAndBeans",
     startDate: "2025-02-18",
   },
   {
@@ -42,7 +42,7 @@ const projects: ProjectDto[] = [
       "Serviço responsável pelo backup periódico do servidor, rodando como container isolado, sem interface pública.",
     tag: "Serviço / Infra",
     links: [],
-    repoUrl: "https://github.com/gabrielppd77/BackupManager",
+    repoUrl: "https://github.com/necro-org/BackupManager",
     startDate: "2025-04-29",
   },
 ];

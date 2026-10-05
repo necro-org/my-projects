@@ -4,6 +4,7 @@ import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import CorporateFareIcon from "@mui/icons-material/CorporateFare";
 
 import GlitchText from "@components/GlitchText";
 
@@ -87,6 +88,18 @@ export default function Hero() {
               sx={{ boxShadow: "0 0 14px #00f0ff, inset 0 0 10px #00f0ff" }}
             >
               GitHub
+            </Button>
+            <Button
+              href="https://github.com/necro-org"
+              target="_blank"
+              rel="noopener noreferrer"
+              size="large"
+              variant="outlined"
+              color="secondary"
+              startIcon={<CorporateFareIcon />}
+              sx={{ boxShadow: "0 0 14px #ff2bd6, inset 0 0 10px #ff2bd6" }}
+            >
+              necro-org
             </Button>
           </Stack>
         </Stack>
