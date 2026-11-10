@@ -2,15 +2,15 @@ import type { ProjectDto } from "./types";
 
 const projects: ProjectDto[] = [
   {
-    name: "Controle Financeiro",
+    name: "Finora",
     description:
       "Sistema completo de controle financeiro pessoal: lançamentos, contas, classificações e lançamentos recorrentes, com painel de indicadores.",
     tag: "Full stack",
     links: [
-      { label: "Acessar sistema", url: "https://controle-financeiro.necro.com.br/" },
-      { label: "API", url: "https://controle-financeiro-api.necro.com.br/" },
+      { label: "Acessar sistema", url: "https://finora.necro.com.br/" },
+      { label: "API", url: "https://finora.api.necro.com.br/" },
     ],
-    repoUrl: "https://github.com/necro-org/ControleFinanceiro",
+    repoUrl: "https://github.com/necro-org/Finora",
     startDate: "2026-02-11",
   },
   {
