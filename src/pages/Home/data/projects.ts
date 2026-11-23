@@ -16,12 +16,14 @@ const projects: ProjectDto[] = [
   {
     name: "MICAR",
     description:
-      "Sistema para gerenciamento das manutenções de veículos, com cliente mobile consumindo a API.",
-    tag: "API + Mobile",
-    links: [{ label: "API", url: "https://micar-api.necro.com.br/" }],
+      "Sistema web para gerenciamento das manutenções de veículos: acompanhamento do odômetro, manutenções próximas do vencimento ou vencidas e painel com o status de cada veículo.",
+    tag: "Full stack",
+    links: [
+      { label: "Acessar sistema", url: "https://micar.necro.com.br/" },
+      { label: "API", url: "https://micar.api.necro.com.br/" },
+    ],
     repoUrl: "https://github.com/necro-org/Micar",
     startDate: "2026-07-24",
-    isMobileApp: true,
   },
   {
     name: "RiceAndBeans",
